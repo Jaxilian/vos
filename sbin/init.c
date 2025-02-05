@@ -20,7 +20,7 @@ void mount_or_die(
         type,
         flags,
         data ) != 0) {
-
+        printf("%s >> ", type);
         perror("mount failed");
         exit(1);
     }

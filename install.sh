@@ -50,7 +50,7 @@ pacman-key --init
 pacman-key --populate archlinux
 
 # Install essentials
-pacman -Sy --noconfirm gcc glibc git
+pacman -Sy --noconfirm gcc glibc git bash
 
 # Clone and install custom init
 git clone https://github.com/jaxilian/vos.git
